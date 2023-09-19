@@ -1,0 +1,43 @@
+$fontROG: "ROG Fonts v1.6", Tahoma;
+.not-support {
+    display: none;
+    .content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      h1 {
+        font-size: 3rem;
+        font-family: $fontROG;
+      }
+    }
+  }
+ 
+ 
+ /* Media query for mobile devices */
+  @media screen and (max-width: 1368px) {
+    header, #home, #features, #events, #news, #maps, #power ,footer {
+      display: none;
+    }
+    .not-support{
+      display: flex;
+      .content{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 1rem;
+        margin: 2rem;
+        h1{
+          margin: 0.3rem;
+          font-size: 1.99rem;
+        }
+      }
+    }
+
+    
+  }

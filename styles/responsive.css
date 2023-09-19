@@ -1,0 +1,39 @@
+.not-support {
+  display: none;
+}
+.not-support .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-support .content img {
+  max-width: 100%;
+  height: auto;
+}
+.not-support .content h1 {
+  font-size: 3rem;
+  font-family: "ROG Fonts v1.6", Tahoma;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 1368px) {
+  header, #home, #features, #events, #news, #maps, #power, footer {
+    display: none;
+  }
+  .not-support {
+    display: flex;
+  }
+  .not-support .content {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 2rem;
+  }
+  .not-support .content h1 {
+    margin: 0.3rem;
+    font-size: 1.99rem;
+  }
+}/*# sourceMappingURL=responsive.css.map */
