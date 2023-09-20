@@ -84,12 +84,12 @@ body header nav .nav-items button:hover {
 }
 body #home .hero {
   background: url(../img/bgruincity.jpg);
-  height: 100vh;
+  height: auto;
   background-size: cover;
   background-position: center;
 }
 body #home .hero .content {
-  padding: 7% 10% 0;
+  padding: 5% 10%;
   width: 80%;
 }
 body #home .hero .content .title-home h1 {

@@ -101,12 +101,11 @@ body {
   #home {
     .hero {
       background: url(../img/bgruincity.jpg);
-      height: 100vh;
-
+      height: auto;
       background-size: cover;
       background-position: center;
       .content {
-        padding: 7% 10% 0;
+        padding: 5% 10%;
         width: 80%;
         .title-home {
           h1 {
